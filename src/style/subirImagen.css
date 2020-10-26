@@ -1,0 +1,48 @@
+.contenedorGeneral {
+
+
+    text-align: center;
+}
+
+.contenedorCarga {
+
+    border-style: solid;
+
+}
+
+.contenedorTexto {
+
+    border-style: solid;
+}
+
+.contenedorTarjetas {
+
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+
+
+}
+
+.card {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .card {
+        width: 50% !important;
+    }
+}
