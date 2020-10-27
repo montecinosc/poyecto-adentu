@@ -11,8 +11,6 @@ const Navbar = () => {
                     <a class="navbar-brand" href="/"><Link to="/">Cargar</Link></a>
                 </div>
 
-
-
             </nav>
         </div>
     )

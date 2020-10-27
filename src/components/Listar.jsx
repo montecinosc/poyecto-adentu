@@ -36,9 +36,14 @@ const Listar = () => {
                             <div className="card" width=" 18rem">
                                 <img src={item.foto} className="card-img-top" width="250px" />
                                 <div className="card-body">
-                                    <p className="card-text"> {item.descripcion}</p>
+                                    <h4>Descripcion :</h4>
+                                    <p className="card-text">  {item.descripcion}</p>
+                                    <h4>Ubicacion:</h4>
+                                    <p>{item.latitud}</p>
+                                    <p>{item.longitud}</p>
+
                                 </div>
-                                <a href={item.foto} download> <button> <DesktopDownloadIcon size={24} /></button></a>
+                                <a href={item.foto} download> <button> <DesktopDownloadIcon size={24} />Descargar Imagen</button></a>
                             </div>
                         </div>
                     ))
